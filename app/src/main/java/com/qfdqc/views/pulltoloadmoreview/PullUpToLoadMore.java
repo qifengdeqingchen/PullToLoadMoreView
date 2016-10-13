@@ -103,6 +103,7 @@ public class PullUpToLoadMore extends ViewGroup {
                 position1Y = topScrollView.getBottom();
 
                 scaledTouchSlop = ViewConfiguration.get(getContext()).getScaledTouchSlop();
+
             }
         });
     }
@@ -205,7 +206,7 @@ public class PullUpToLoadMore extends ViewGroup {
     @Override
     protected void onLayout(boolean changed, int l, int t, int r, int b) {
         int childCount = getChildCount();
-        int childTop = t;
+        int childTop = 0;
         for (int i = 0; i < childCount; i++) {
             View child = getChildAt(i);
             child.layout(l, childTop, r, childTop + child.getMeasuredHeight());
@@ -213,11 +214,21 @@ public class PullUpToLoadMore extends ViewGroup {
         }
     }
 
+
+
     //通过Scroller实现弹性滑动
     private void smoothScroll(int tartY) {
         int dy = tartY - getScrollY();
         scroller.startScroll(getScrollX(), getScrollY(), 0, dy);
         invalidate();
+    }
+
+
+    //滚动到顶部
+    private void scrollToTop(){
+        smoothScroll(0);
+        bottomScrollVIewIsInTop=true;
+        currPosition=0;
     }
 
     @Override
@@ -227,4 +238,5 @@ public class PullUpToLoadMore extends ViewGroup {
             postInvalidate();
         }
     }
+
 }

@@ -2,46 +2,58 @@
 <items version="2" >
 
     <item
-        jar="/Users/baoyunlong/PullToLoadMoreView/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
-        <dex dex="/Users/baoyunlong/PullToLoadMoreView/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.4.0_5399e86f2d771225b0e65b013c4db96d0d81e8cf.jar" />
-    </item>
-    <item
-        jar="/Users/baoyunlong/PullToLoadMoreView/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
-        <dex dex="/Users/baoyunlong/PullToLoadMoreView/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-23.4.0_e90df612231d9f649dfc37af15dd547c21ae8479.jar" />
-    </item>
-    <item
+        is-multidex="false"
         jar="/Users/baoyunlong/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.4.0/support-annotations-23.4.0.jar"
         jumboMode="false"
+        optimize="true"
         revision="23.0.2"
         sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
         <dex dex="/Users/baoyunlong/PullToLoadMoreView/app/build/intermediates/pre-dexed/debug/support-annotations-23.4.0_d4f5d7535767a10cd74d8e747d6f3a872f8c3a34.jar" />
     </item>
     <item
+        is-multidex="false"
         jar="/Users/baoyunlong/PullToLoadMoreView/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/jars/classes.jar"
         jumboMode="false"
+        optimize="true"
         revision="23.0.2"
         sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
         <dex dex="/Users/baoyunlong/PullToLoadMoreView/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-23.4.0_fdfcafe18f5dc67c7d6714a03b06754a85ee968a.jar" />
     </item>
     <item
-        jar="/Users/baoyunlong/PullToLoadMoreView/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/libs/internal_impl-23.4.0.jar"
+        is-multidex="false"
+        jar="/Users/baoyunlong/PullToLoadMoreView/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/classes.jar"
         jumboMode="false"
+        optimize="true"
         revision="23.0.2"
-        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
-        <dex dex="/Users/baoyunlong/PullToLoadMoreView/app/build/intermediates/pre-dexed/debug/internal_impl-23.4.0_8a2331e732c9d88b26f34a6c933349ddaebe1f12.jar" />
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="/Users/baoyunlong/PullToLoadMoreView/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.4.0_5399e86f2d771225b0e65b013c4db96d0d81e8cf.jar" />
     </item>
     <item
+        is-multidex="false"
         jar="/Users/baoyunlong/PullToLoadMoreView/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/jars/classes.jar"
         jumboMode="false"
+        optimize="true"
         revision="23.0.2"
         sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
         <dex dex="/Users/baoyunlong/PullToLoadMoreView/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.4.0_94c8b542608e19fd6c392ca2cebb46900f25bcea.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/baoyunlong/PullToLoadMoreView/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="/Users/baoyunlong/PullToLoadMoreView/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-23.4.0_e90df612231d9f649dfc37af15dd547c21ae8479.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/baoyunlong/PullToLoadMoreView/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/libs/internal_impl-23.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="/Users/baoyunlong/PullToLoadMoreView/app/build/intermediates/pre-dexed/debug/internal_impl-23.4.0_8a2331e732c9d88b26f34a6c933349ddaebe1f12.jar" />
     </item>
 
 </items>

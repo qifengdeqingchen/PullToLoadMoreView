@@ -4,9 +4,16 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <View
+        android:background="#ff22"
+        android:id="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"/>
+
     <com.qfdqc.views.pulltoloadmoreview.PullUpToLoadMore
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_below="@+id/top"
         android:orientation="vertical">
 
         <com.qfdqc.views.pulltoloadmoreview.MyScrollView

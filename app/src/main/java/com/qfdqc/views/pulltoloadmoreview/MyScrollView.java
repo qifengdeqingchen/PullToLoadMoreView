@@ -60,7 +60,6 @@ public class MyScrollView extends ScrollView {
         }
         boolean result=super.onTouchEvent(ev);
         requestDisallowInterceptTouchEvent(false);
-        Log.d("tttt","我是scrollView"+result);
 
         return result;
     }
