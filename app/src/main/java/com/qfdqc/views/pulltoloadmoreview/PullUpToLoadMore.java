@@ -225,10 +225,10 @@ public class PullUpToLoadMore extends ViewGroup {
 
 
     //滚动到顶部
-    private void scrollToTop(){
+    public void scrollToTop(){
         smoothScroll(0);
-        bottomScrollVIewIsInTop=true;
         currPosition=0;
+        topScrollView.smoothScrollTo(0,0);
     }
 
     @Override
